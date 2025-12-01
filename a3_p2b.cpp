@@ -10,6 +10,7 @@
 #include <ctime>
 using namespace std;
 #include <sys/sem.h>
+#include <cstring>
 
 #define QUESTIONS 5
 #define EXAMS 20
