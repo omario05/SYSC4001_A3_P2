@@ -1,4 +1,6 @@
-### How to run the files!
+## How to run the files!
+
+### Disclaimer: If you are on macOS, keep the union in a3_p2b.cpp commented out because it gives an error since it exists in the OS. However, if you are on Windows, then you will need to uncomment the union so it gets used in the code to be able to compile and run it.
 
 To first compile the files, use this in a zsh terminal (or bash) :
 
@@ -15,7 +17,7 @@ And where it says the number of TA's is where you put how many TA's are going to
 For the rubric file, once you run the program the first time, it will change the rubric (of course it will, its part of the assignment), however if you would like to do a second run,
 then you will unfortunately have to rewrite the rubric.txt again as per the assignment instructions initially (or you could continue with whatever the first run stopped at).
 
-### Solution to Critical Section Problem
+## Solution to Critical Section Problem
 
 The code has the shared memory part handle the rubric and current exam the TA is marking, while the semaphores would control access to the parts that have to be protected. 
 
