@@ -9,6 +9,7 @@ g++ -g -O0 -I . -o a3_p2a a3_p2a.cpp
 g++ -g -O0 -I . -o a3_p2b a3_p2b.cpp
 
 Then you can run it like this in zsh (or bash too):
+
 ./a3_p2a "# of TA's"
 
 ./a3_p2b "# of TA's"
